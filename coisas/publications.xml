@@ -1,0 +1,148 @@
+
+
+<publication>
+<ptitle>The logic of contextuality</ptitle>
+<authors>Samson Abramsky and Rui S Barbosa</authors>
+<bibinfo status="accepted">Proceedings of 29th EACSL Annual Conference on Computer Science Logic (CSL 2021)</bibinfo>
+<year>2020</year>
+<arxiv>arXiv:2011.03064 [quant-ph]</arxiv>
+<note>Communicated at 17th International Conference on Quantum Physics and Logic (QPL 2020)</note>
+</publication>
+
+<publication>
+<ptitle>Compiling quantamorphisms for the IBM Q Experience</ptitle>
+<authors>Ana Neri, Rui S Barbosa, and Jos&ecaute; N Oliveira</authors>
+<arxiv>arXiv:2010.10510 [quant-ph]</arxiv>
+</publication>
+
+
+<publication>
+<ptitle>A comonadic view of simulation and quantum resources</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa, Martti Karvonen, and Shane Mansfield</authors>
+<bibinfo>Proceedings of 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LiCS 2019): 1&ndash;12</bibinfo>
+<year>2019</year>
+<arxiv>arXiv:1905.08267 [quant-ph]</arxiv>
+<note>Communicated at 3rd Symposium on Compositional Structures (SYCO 3), 16th International Conference on Quantum Physics and Logic (QPL 2019), 2nd Applied Category Theory Conference (ACT 2019), and related submission at 8th Conference on Algebra and Coalgebra in Computer Science (CALCO 2019)</note>
+</publication>
+
+
+<publication>
+<ptitle>Continuous-variable nonlocality and contextuality</ptitle>
+<authors>Rui S Barbosa, Tom Douce, Pierre-Emmanuel Emeriau, Elham Kashefi, and Shane Mansfield</authors>
+<bibinfo status="accepted">Proceedings 16th International Conference on Quantum Physics and Logic (QPL 2019)</bibinfo>
+<year>2019</year>
+<arxiv>arXiv:1905.08267 [quant-ph]</arxiv>
+</publication>
+
+<publication>
+<ptitle>Contextuality and noncommutative geometry in quantum mechanics</ptitle>
+<authors>Nadish de Silva, Rui S Barbosa</authors>
+<bibinfo>Communications in Mathematical Physics, 365(2): 375&ndash;429</bibinfo>
+<year>2019</year>
+<arxiv>arXiv:1806.02840 [math.OA]</arxiv>
+<note>Earlier partial version ``Partial and total ideals of von Neumann algebras'' at arXiv:1408.1172 [math.OA]</note>
+</publication>
+
+<publication>
+<ptitle>A complete characterisation of All-versus-Nothing arguments for stabilizer states</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa, Giovanni Car&ugrave;, Simon Perdrix</authors>
+<bibinfo-booktitle>Special issue on Second quantum revolution: foundational questions</bibinfo-booktitle>
+<bibinfo-bookeds>G Jaeger, A Khrennikov, P Perinotti<bibinfo-boookeds>
+<bibinfo>Philosophical Transactions of the Royal Society of London A, 375 (2106): 20160385</bibinfo>
+<year>2017</year>
+<arxiv>arXiv:1705.08459 [quant-ph]</arxiv>
+<note>Communicated at 14th International Conference on Quantum Physics and Logic (QPL 2017)</note>
+</publication>
+
+<publication>
+<ptitle>The quantum monad on relational structures</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa,  Nadish de Silva, Octavio Zapata</authors>
+<bibinfo-booktitle>Proceedings of 42nd International Symposium on Mathematical Foundations of Computer Science (MFCS 2017)</bibinfo-booktitle>
+<bibinfo-bookeds>K G Larsen, H L Bodlaender, and J-F Raskin<bibinfo-boookeds>
+<bibinfo>Leibniz International Proceedings in Informatics (LIPIcs), 83: 35:1&ndash;35:19</bibinfo>
+<year>2017</year>
+<arxiv>arXiv:1705.07310 [cs.LO]</arxiv>
+<note>Communicated at 15th International Conference on Quantum Physics and Logic (QPL 2018)</note>
+</publication>
+
+<publication>
+<ptitle>Minimum resources for strong non-locality</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa, Giovanni Car&ugrave;, Nadish de Silva, Kohei Kishida, Shane Mansfield</authors>
+<bibinfo-booktitle>Proceedings of 12th Conference on Theory of Quantum Computation, Communication and Cryptography (TQC 2017)</bibinfo-booktitle>
+<bibinfo-bookeds>M M Wilde<bibinfo-boookeds>
+<bibinfo>Leibniz International Proceedings in Informatics (LIPIcs), 73: 9:1&ndash;9:20</bibinfo>
+<year>2018</year>
+<arxiv>arXiv:1705.09312 [quant-ph]</arxiv>
+<note>Communicated at 14th International Conference on Quantum Physics and Logic (QPL 2017)</note>
+</publication>
+
+
+<publication>
+<ptitle>Contextual fraction as a measure of contextuality</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa, Shane Mansfield</authors>
+<bibinfo>Physical Review Letters, 119: 050504</bibinfo>
+<year>2017</year>
+<arxiv>arXiv:1705.07918 [quant-ph]</arxiv>
+<note>Earlier version communicated at 13th International Conference on Quantum Physics and Logic (QPL 2016); Poster presented at 21st Annual Conference on Quantum Information Processing (QIP 2018)</note>
+</publication>
+
+<publication>
+<ptitle>Possibilities determine the combinatorial structure of probability polytopes</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa, Kohei Kishida, Raymond Lal, Shane Mansfield</authors>
+<bibinfo-booktitle>Special issue on Foundations of Probability Theory in Psychology and Beyond</bibinfo-booktitle>
+<bibinfo-bookeds>E N Dzhafarov, J V Kujala, and R Suck<bibinfo-boookeds>
+<bibinfo>Journal of Mathematical Psychology, 74: 58&ndash;65</bibinfo>
+<year>2016</year>
+<arxiv>arXiv:1603.07735 [quant-ph]</arxiv>
+</publication>
+
+<publication>
+<ptitle>Contextuality, cohomology and paradox</ptitle>
+<authors>Samson Abramsky, Rui S Barbosa, Kohei Kishida, Raymond Lal, Shane Mansfield</authors>
+<bibinfo-booktitle>24th EACSL Annual Conference on Computer Science Logic (CSL 2015)</bibinfo-booktitle>
+<bibinfo-bookeds>S Kreutzer<bibinfo-boookeds>
+<bibinfo>Leibniz International Proceedings in Informatics (LIPIcs),  41: 211&ndash;228</bibinfo>
+<year>2015</year>
+<arxiv>arXiv:1502.03097 [quant-ph]</arxiv>
+</publication>
+
+<publication>
+<ptitle>On monogamy of non-locality and macroscopic averages: examples and preliminary results</ptitle>
+<authors>Rui S Barbosa</authors>
+<bibinfo-booktitle>11th International Workshop on Quantum Physics and Logic (QPL 2014)</bibinfo-booktitle>
+<bibinfo-bookeds>B Coecke, I Hasuo, and P Panangaden<bibinfo-boookeds>
+<bibinfo>Electronic Proceedings in Theoretical Computer Science, 172: 36&ndash;55</bibinfo>
+<year>2014</year>
+<arxiv>arXiv:1412.8541 [quant-ph]</arxiv>
+</publication>
+
+<publication>
+<ptitle>Extendability in the sheaf-theoretic approach: construction of Bell models from Kochen&ndash;Specker models</ptitle>
+<authors>Shane Mansfield, Rui S Barbosa</authors>
+<bibinfo>Informal Proceedings: 10th International Workshop on Quantum Physics and Logic (QPL 2013)</bibinfo>
+<year>2013</year>
+<arxiv>arxiv:1402.4827 [quant-ph]</arxiv>
+</publication>
+
+<publication>
+<ptitle>The cohomology of non-locality and contextuality</ptitle>
+<authors>Samson Abramsky, Shane Mansfield, Rui S Barbosa</authors>
+<bibinfo-booktitle>8th International Workshop on Quantum Physics and Logic (QPL 2011)</bibinfo-booktitle>
+<bibinfo-bookeds>B Jacobs, P Selinger, B Spitters<bibinfo-boookeds>
+<bibinfo>Electronic Proceedings in Theoretical Computer Science,  95: 1&ndash;15</bibinfo>
+<year>2012</year>
+<arxiv>arXiv:1111.3620 [quant-ph]</arxiv>
+</publication>
+
+<publication>
+<ptitle>Unsharp values, domains and topoi</ptitle>
+<authors>Andreas D&ouml;oring and Rui Soares Barbosa</authors>
+<bibinfo-booktitle>Quantum Field Theory and Gravity</bibinfo-booktitle>
+<bibinfo-bookeds>F Finster, O Müller, M Nardmann, J Tolksdorf, E Zeidler<bibinfo-boookeds>
+<bibinfo-bookpub>Springer Basel</bibinfo-bookpub>
+<year>2011</year>
+<arxiv>arXiv:1107.1083 [quant-ph]</arxiv>
+</publication>
+
+
+

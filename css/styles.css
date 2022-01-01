@@ -1,0 +1,667 @@
+
+/* Limpar superHi*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input, textarea, select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Menu*/
+
+.header{
+	position: -webkit-sticky; /* Safari */
+	position: fixed;
+        /*background-color: rgba(218, 218, 218, 0.9);*/
+	height: 50px;
+	top: 0px;
+	/*width: 100%;*/
+	/*max-width: 1200px;*/
+	/*padding-right: 10%;
+	padding-left:10%;*/
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+background-color: #f0f0f0;
+z-index: 4;}
+
+.content{
+        padding-top: 50px;
+        padding-bottom: 100px;
+}
+
+
+
+.menu{
+	margin-top: 10px;
+	/*justify-content: center;*/
+	/*position: fixed;*/
+	display: flex;
+        flex-direction: row;
+        font-size: 18px;
+}
+.menu  li{
+    font-family: 'quantico', sans-serif;
+	margin-bottom: 5px;
+	padding-right: 30px;
+}
+.menu ul, .menu li{
+	list-style-type: none;
+	text-align: center;
+}
+.menu a:hover{text-decoration: underline;}
+
+/* Name */
+
+#name{
+	flex-direction: row;
+	font-family: 'quantico', sans-serif;
+	/*font-size: 7vw;*/
+	font-size: 70px;
+	display: flex;
+        position: fixed;
+        bottom: 0;
+        right: 2%;
+        width: 96%;
+        transition: 0.1s;
+	z-index: 10;
+}
+
+#Barbosa, #Rui, #Soares {
+	width: 33.3333333%;
+	        transition: 0.8s;
+
+}
+
+#Barbosa{
+	text-align: right;
+}
+
+
+#nameout1, #nameout2, #nameout3{
+	display: inline;
+	transition: 0.8s;
+}
+/*Body*/
+
+body{
+	background-color: #f0f0f0;
+	font-family: 'roboto', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color:#000;
+}
+
+p{
+	margin: 0px 0px 13px 0px;
+}
+
+.bold{
+	margin-bottom:30px;
+	font-weight:bold;
+}
+
+img{
+	margin: 0px;
+}
+a{color: #000;
+text-decoration: none;}
+
+.content a{
+	text-decoration: none;
+	color:#4a4a4a;
+}
+
+a:hover{ color:#4a4a4a; }
+.content a:hover{color: #000;
+/*text-decoration: underline;*/}
+
+
+.space{
+	padding: 20px;
+}
+
+
+
+
+
+.main {
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/* General organisation of content into two or three columns */
+
+.content {
+	flex-direction: row;
+	display: flex;
+	margin-top: 15px;
+}
+
+#left_col, #mid_col, #right_col {
+	width: 33.3333333%;
+}
+
+#midright_col {
+	width: 66.6666666%;
+	padding-right: 50px;
+	padding-left: 1%;
+}
+
+#left_col{position: sticky;
+top:65px;
+height: 100%;
+position: ~webkit-sticky;}
+
+
+/* Specific types or ids of content */
+.title_page{
+        font-family: 'quantico', sans-serif;
+	font-size: 30px;
+	line-height: 1.0;
+}
+
+.title_text{
+        font-family: 'quantico', sans-serif;
+	/*font-size: 1.5vw;*/
+	font-size: 20px;
+}
+
+.subtitle_text{
+        font-family: 'quantico', sans-serif;
+	/*font-size: 1.5vw;*/
+	font-size: 20px;
+}
+
+.text_content{
+	/*font-size: 1.3vw;*/
+	font-size: 15px;
+}
+
+
+.bio_entry{
+    margin-top: 20px;
+}
+
+.bio_date {
+        color: #888888;
+}
+
+.bio_title {
+        font-weight: bold;
+}
+
+
+
+
+#homephoto {
+	width: 60%;
+}
+
+.sidephoto {
+	width: 80%;
+        margin-left: 2px;
+}
+
+
+#icons img{
+        width: 12%;
+        margin-right: 2%;
+}
+#icons img:hover{
+	opacity: 53.333%;
+}
+.button{
+	margin-left: 20%;
+}
+.button img{ 
+	width: 46%;
+}
+.button img:hover{
+	opacity: 53.333%;
+}
+
+/*Mobile Menu*/
+.mobile{display: none;}
+
+.open-menu {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.close-menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.mobile li {
+    margin-bottom: 5px;
+}
+.mobile ul, .mobile li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.mobile-menu{
+	position: fixed;
+	top: 0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background-color: rgba(200, 200, 200, 0.9);
+	z-index: 20;
+	display: none;
+	
+}
+.flex{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 5%;
+	justify-content: flex-start;
+	padding-top: 40px;
+	width:100%;
+	height: 100%;
+}
+.flex li{font-family: 'quantico', sans-serif;
+	margin-bottom: 5px;
+font-size: 20px;}
+
+/* this class is just for comments to Cata now */
+
+.comment{
+   color:  #ff0000;
+	font-weight:bold;
+
+}
+
+/*News*/
+.news_entry{
+	margin-bottom: 30px;
+	/*
+	 * border-style: solid;
+	 * border-width: 1px 0px 0px 0px;
+	 * border-color: rgb(200 200 200 / 90%);
+	 */
+}
+.news_date {
+	color: #888888;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgb(200 200 200 / 90%)
+}
+.news_text{}
+.bold{font-weight: 600;}
+.newsphoto{max-width: 80%;
+margin-top: 20px;}
+
+/*Talks*/
+.talk_entry{margin-bottom: 30px;}
+.talk_date {color: #888888;}
+.talk_title{font-weight: 500;}
+.talk_event{}
+.talk_location{}
+
+
+/*Publications*/
+.publication_entry{margin-bottom: 30px;}
+.publication_year{color: #888888;}
+.publication_title{
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 1.2;}
+.publication_authors{font-weight: 500;}
+.publication_venue{}
+.publication_note{color: #888888;font-size:14px;}
+/*Talks and publications icons*/
+
+.entry_icons {
+	display: flex;
+	margin-top: 5px;
+}
+.entry_icons img{
+	margin-right: 5px;
+	height: 25px;
+	opacity: 53.333%;
+}
+.entry_icons img:hover{
+	opacity : 100%;
+}
+
+.texticon{
+	color: #888888;
+	height:25px;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.my_label {
+	font-family: 'quantico', sans-serif;
+	line-height: 1.0;
+	background: #888888; /*#BBBBBB;*/
+	font-size:12px;
+	color: white;
+	margin-left:20px;
+	padding-left:8px;
+	padding-right:8px;
+	/*padding-top:1px;
+	padding-bottom:1px;*/
+	/*clip-path: polygon(0 6.76%, 11.76% 0, 88.24% 0, 100% 6.76%, 100% 93.24%, 88.24% 100%, 11.76% 100%, 0 93.24%);*/
+	clip-path: polygon(0 2.8px,4.8px 0, calc(100% - 4.8px) 0, 100% 2.8px, 100% calc(100% - 2.8px), calc(100% - 4.8px) 100%, 4.8px 100%, 0px calc(100% - 2.8px));
+}
+
+.publication_searchers {
+	width:100%;
+}
+
+/*Research*/
+
+.text_content p{max-width: 680px;}
+
+/*People*/
+
+.student_entry{margin-bottom: 30px;}
+.student_date {color: #888888;}
+.student_name{font-weight: 500;}
+.student_photo {
+	float:left;
+	margin-right: 10px;
+	width: 85px;
+	clip-path: polygon(0 6.76%, 11.76% 0, 88.24% 0, 100% 6.76%, 100% 93.24%, 88.24% 100%, 11.76% 100%, 0 93.24%);
+}
+.student_photo_letters{
+	font-family: 'quantico', sans-serif;	
+	font-size:50px;
+	background:#888888;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	float:left;
+	margin-right: 10px;
+	width: 85px;
+	height: 85px;
+	clip-path: polygon(0 6.76%, 11.76% 0, 88.24% 0, 100% 6.76%, 100% 93.24%, 88.24% 100%, 11.76% 100%, 0 93.24%);
+}
+
+.TitulosFotosGrupo{
+	margin-top: 30px;
+}
+
+#GroupPhoto{margin-top: 5px;}
+
+/*Activities*/
+.sectionActivities {margin-bottom:30px;}
+.activity_date{font-size: 12px;color: #888888;}
+
+
+@media (max-width: 1100px){
+	img{max-width: 90%;
+		/*margin-left: 20px;*/}
+
+		#name{font-size: 60px;}
+	}
+
+@media (max-width: 930px){
+
+	#name{font-size: 50px;}
+	.text_content{
+	font-size: 14px;
+	line-height: 1.3;}
+}
+
+@media (max-width: 730px){
+
+
+/*Mobile Menu*/
+.mobile{
+    display: block;
+    z-index: 20;
+}
+.header{display: none;}
+#left_col{top:20px;}
+
+.content{padding-top: 40px;}
+.space{padding: 10px;}
+
+}
+
+@media (max-width: 600px){
+
+	#name{font-size: 40px;}
+	.text_content{
+	font-size: 13px;
+	line-height: 1.3;
+
+}
+
+.content{flex-direction: column;}
+#left_col, #mid_col, #right_col, #midright_col{width: 100%;padding-bottom: 30px;}
+#left_col{position: initial;
+	
+}
+.space{padding: 10px;}
+#icons{max-width: 400px;}
+#right_col{max-width: 400px;}
+.button{margin-left: 0px;}
+
+
+
+}
+
+
+@media (max-width: 450px){
+#midright_col {
+padding-right: 0px;}
+	#name{font-size: 30px;}
+	.text_content{
+	font-size: 13px;
+	line-height: 1.3;
+}
+
+.open-menu, .close-menu{
+top: 10px;
+right: 10px;
+
+}
+
+
+}
+
+
+
+@media (max-width: 360px){
+
+
+.open-menu, .close-menu{
+top: 10px;
+right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+
+}
+/*
+
+@media (max-width: 770px){
+
+.section p{
+	max-width: 100%;
+
+}
+.main{margin-left: 3%;
+margin-right: 3%;
+margin-top: 70px;
+width: 94%;}
+.header{padding-left: 3%;
+padding-right:3%;}
+
+.sub-section{
+	flex-direction: column;
+
+}
+
+iframe{height: 350px;
+	width: 90%;
+}
+
+}
+
+
+@media (max-width: 640px){
+
+.schedule{
+
+	flex-direction: column;
+}
+#schedule_day{
+	width: 100%;
+margin-right: 0px;
+padding:5px;}
+
+#day_name{font-size: 18px;}
+
+}
+
+@media (max-width: 600px){
+#first{
+flex-direction: column;
+}
+.first{max-width: 100%}
+img{width: 50%;
+margin-top: 30px;
+margin-left: 0px;
+}
+
+
+
+
+
+}
+
+
+@media (max-width: 400px){
+/*	.title{	
+font-size: 30px;
+}*/
+
+#place, #date { 
+font-size:18px; }
+#place{margin-top:15px;}
+
+#title{
+font-size: 15px;
+color:#8d1515;
+
+}
+#section-title{
+font-size: 18px;
+}
+
+#speaker{}
+body{
+	font-size: 14px;
+
+}
+img{width: 100%;}
+
+
+
+/*tirar*//*
+.header{display: none;}
+}
+
+*/
+
+
+.cata{
+   color: #ff0000;
+}
+
+
+ .bibtex_search {
+    border: 0px solid #666666;
+    border-width: 0px 0px 1px 0px;
+    min-height: 20px;
+    width: 50%;
+    padding: 2px 23px 1px 3px;
+    outline: 0;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    font-family: 'quantico', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+
+
+  }
+
+  .bibtex_search:hover {opacity: 0.5;}
+
+  .catarina{font-size: 10px;
+  	margin-top: 20px;}
+

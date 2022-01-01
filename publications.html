@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+       <title>Rui Soares Barbosa</title>
+       <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+       <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+       <link rel="manifest" href="favicon/site.webmanifest">
+       <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+       <meta name="msapplication-TileColor" content="#da532c">
+       <meta name="theme-color" content="#ffffff">
+       <style>
+       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+       </style>
+       <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+       <script type="text/javascript" src="bibtex_js.js"></script>
+    </head>
+
+
+    <body>
+ <nav class="mobile">
+                <a href="#" class="open-menu"><img src="img/menuWopen.svg"></a>           
+    
+    <div class="mobile-menu">
+        <div class="flex">
+  <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="research.html">Research</a></li>
+	<li><a href="publications.html"><u>Publications</u></a></li>
+        <li><a href="talks.html">Talks</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="activities.html">Activities</a></li>
+                 </div>
+    
+                 <a href="#" class="close-menu"><img src="img/menuWclose.svg"></a>
+    </div>
+ </nav>
+    <body>
+
+<div class="header">
+<div class="menu">
+	<li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html"><u>Publications</u></a></li>
+        <li><a href="talks.html">Talks</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="activities.html">Activities</a></li>
+</div>
+</div>
+
+      <div class="main">
+
+        <div id="name">
+          <div id="Rui">R<span id="nameout1">ui</span></div>
+          <div id="Soares">S<span id="nameout2">oares</span></div>
+          <div id="Barbosa">B<span id="nameout3">arbosa</span></div>
+        </div>
+
+        <div class="content">
+
+	  <div id="left_col">
+	    <p class="title_page">
+            Publications 
+            </p>
+            <div class="space"></div>
+            <div class="space"></div>
+
+	    <div class="publication_searchers">
+		    <div class="publication_by_year">
+
+		    </div>
+	    </div>
+
+	    <div><input type="text" class="bibtex_search" id="searchbar" placeholder="Search publications"></div>
+            <div>
+		    <select class="bibtex_search bibtex_generate_year" search="year">
+			    <option value="">by year</option>
+		    </select>
+	    </div>
+	    <!--<div>
+		    <select class="bibtex_search bibtex_generate_author" search="author" bibtex_sort_language="pt">
+			    <option value="">by author</option>
+		    </select>
+	    </div>-->
+	        </div>
+
+
+
+
+	  <div id="midright_col" class="text_content">
+
+<!--
+
+<div class="bibtex_template">
+  <div class="title" style="font-weight: bold;"></div>
+  <div class="author"></div>    
+</div>
+
+<span class="if year">
+      <span class="year"></span>, 
+    </span>
+    <span class="author"></span>
+    <span class="if url" style="margin-left: 20px">
+      <a class="url" style="color:black; font-size:10px">(view online)</a>
+    </span>
+  </div>
+  <div style="margin-left: 10px; margin-bottom:5px;">
+    <span class="title"></span>
+  </div>
+-->
+
+ <div class="bibtex_template">
+    <div class="publication_entry">
+	    <div>
+	      <span class="publication_year"><span class="year"></span></span>
+	      <!--<span class="my_label">-->
+	              <span class="if BIBTEXTYPEKEY==ARTICLE"><span class="my_label">JOURNAL</span></span></span>
+	      		<!--<span class="if BIBTEXTYPEKEY==ARTICLE"><span class="my_label">journal</span></span></span>-->
+	              <!--<span class="if BIBTEXTYPEKEY==INPROCEEDINGS"><span class="my_label">conference</span></span>-->
+		      <span class="if BIBTEXTYPEKEY==INPROCEEDINGS"><span class="my_label">CONFERENCE</span></span>
+		      <!--<span class="if BIBTEXTYPEKEY==INCOLLECTION"><span class="my_label">book chapter</span></span>-->
+		      <span class="if BIBTEXTYPEKEY==INCOLLECTION"><span class="my_label">BOOK CHAPTER</span></span>
+		      <!--<span class="if BIBTEXTYPEKEY==DPHILTHESIS"><span class="my_label">dissertation</span></span>-->
+		      <span class="if BIBTEXTYPEKEY==DPHILTHESIS"><span class="my_label">DISSERTATION</span></span>
+		      <!--<span class="if BIBTEXTYPEKEY==MASTERSTHESIS"><span class="my_label">dissertation</span></span>-->
+		      <span class="if BIBTEXTYPEKEY==MASTERSTHESIS"><span class="my_label">DISSERTATION</span></span>
+		      <!--<span class="if BIBTEXTYPEKEY==MISC"><span class="my_label">preprint</span></span>-->
+		      <span class="if BIBTEXTYPEKEY==MISC"><span class="my_label">PREPRINT</span></span>
+		      <!-- </span>-->
+       </div>
+       <div class="publication_title"><span class="title"></span></div>
+       <div class="publication_authors"><span class="author" conjunction=", "><span class="first_initial"></span> <span class="von"></span> <span class="last"></span><span class="junior"></span></span></div>
+       <div class="publication_venue">
+   	    <span class="if BIBTEXTYPEKEY==ARTICLE">
+   		    <span class="journal"></span>
+   		    <span class="volume"></span><span class="if number">(<span class="number"></span>)</span>:
+   		    <span class="pages"></span>
+   	    </span>
+   	    <span class="if BIBTEXTYPEKEY==INPROCEEDINGS">
+   		    <span class="booktitle"></span>
+   		    <span class="if series">
+   			    <br/><span class="series"></span> <span class="volume"></span>
+   		    </span>:
+   		    <span class="pages"></span>
+   	    </span>
+   	    <span class="if BIBTEXTYPEKEY==INCOLLECTION">
+   		    In: <span class="booktitle"></span>
+   		    <span class="if series">
+   			    <br/><span class="series"></span> <span class="volume"></span>
+   		    </span>:
+   		    <span class="pages"></span>
+   	    </span>
+   	    <span class="if BIBTEXTYPEKEY==DPHILTHESIS">
+   		    DPhil thesis, <span class="school"></span>
+   	    </span>
+   	    <span class="if BIBTEXTYPEKEY==MASTERSTHESIS">
+   		    MSc dissertation, <span class="school"></span>
+   	    </span>
+   	    <span class="if BIBTEXTYPEKEY==MISC">
+   		    <span class="howpublished"></span>
+   	    </span>
+       </div>
+       <span class="if note"><div class="publication_note"><span class="note"></span></div></span>
+       <div class="entry_icons">
+   	    <span class="if arxiv">
+   		<a target="_blank" href="https://arxiv.org/abs/+ARXIV+" title="arXiv preprint"><img src="img/icon_arxiv.svg"></a>
+   	    </span>
+       </div>
+       <!--<div class="entry_icons">
+   	    <span class="if arxivlink">
+   		<a target="_blank" href="https://arxiv.org/abs/+ARXIVLINK+" title="arXiv preprint"><img src="img/icon_arxiv.svg"></a>
+   	    </span>
+       </div>-->
+       <!-- <span class="if eprint"  style="font-size: 14px;"><br/><a target="_blank"><span class="eprint"></a></span></span>-->
+    </div>
+ </div>
+
+<textarea id="bibtex_input" style="display: none;">
+
+@misc{BarbosaHeunen2021sheafrepresentation,
+  title = {Sheaf representation of monoidal categories},
+  year  = {2021},
+  author = {Barbosa, Rui Soares and Heunen, Chris},
+  howpublished= {arXiv:2106.08896 [math.CT]},
+  eprint = {arXiv:2106.08896 [math.CT]},
+  arxivlink = {2106.08896},
+  }
+
+@misc{BarbosaKarvonenMansfield2021closing,
+title = {Closing Bell: Boxing black box simulations in the resource theory of contextuality},
+  year  = {2021},
+  author = {Barbosa, Rui Soares and Karvonen, Martti and Mansfield, Shane},
+  howpublished= {arXiv:2104.11241 [quant-ph]},
+  note = {to appear in volume dedicated to Samson Abramsky in Springer's Outstanding Contributions to Logic series},
+  eprint = {arXiv:2104.11241 [quant-ph]}
+  }
+
+
+
+@inproceedings{AbramskyBarbosa:LogicContextuality,
+  title  = {The logic of contextuality},
+  author = {Abramsky, Samson and Barbosa, Rui Soares},
+  year   = {2021},
+  booktitle = {Proceedings of 29th EACSL Annual Conference on Computer Science Logic (CSL 2021)},
+  editor    = {Baier, Christel and Goubault-Larrecq, Jean},
+  series    = {Leibniz International Proceedings in Informatics (LIPIcs)},  
+  volume    = {183},
+  pages     = {5:1--5:18},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum  f\"{u}r Informatik},
+  URL =	{},
+  doi = {},
+  eprint = {arXiv:2011.03064 [quant-ph]},
+  note = {Accepted for communication at QPL 2020.}
+}
+
+@misc{NeriBarbosaOliveira:Quantamorphisms,
+  title = {Compiling quantamorphisms for the IBM Q Experience},
+  year = {2020},
+  author = {Neri, Ana and Barbosa, Rui Soares and Oliveira, Jos{\'e} Nuno},
+  howpublished = {arXiv:2010.10510 [quant-ph]},
+  eprint = {arXiv:2010.10510 [quant-ph]}
+} 
+
+@inproceedings{AbramskyEtAl:Comonadic,
+  title = {A comonadic view of simulations and quantum resources},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and Karvonen, Martti and Mansfield, Shane},
+  booktitle = {Proceedings of 34th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2019)},
+  pages = {1--12},
+  publisher = {IEEE},
+  doi={10.1109/LICS.2019.8785677}, 
+  year = {2019},
+  eprint = {arXiv:1904.10035 [quant-ph]},
+  note = {Accepted for communication at SYCO 3, QPL 2019, ACT 2019, and related submission at CALCO 2019.}
+}     
+
+@misc{BarbosaEtAl:ContinuousVariable,
+   title = {Continuous-variable nonlocality and contextuality},
+   author = {Barbosa, Rui Soares and Douce, Tom and Emeriau, Pierre-Emmanuel and Kashefi, Elham and Mansfield, Shane},
+   note = {Accepted to appear in 16th International Conference on Quantum Physics and Logic (QPL 2019).},
+   howpublished = {arXiv:1905.08267 [quant-ph]},
+   year = {2019}
+}
+
+@article{deSilvaBarbosa:ContextualityNoncommutativeGeometry,
+  title = {Contextuality and noncommutative geometry in quantum mechanics},
+  author = {de Silva, Nadish and Barbosa, Rui Soares},
+  journal={Communications in Mathematical Physics},
+  volume = {365},
+  number = {2},
+  year = {2019},
+  pages= {375--429},
+  doi={10.1007/s00220-018-3222-9},
+  eprint = {arXiv:1806.02840 [math.OA]},
+  note = {Earlier partial version (`Partial and total ideals of von Neumann algebras') available as arXiv:1408.1172 [math.OA]},
+}
+
+
+@article{AbramskyEtAl:CompleteCharacterizationAvN,
+  title = {A complete characterization of {A}ll-versus-{N}othing arguments for stabilizer states},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and Car{\`u}, Giovanni and Perdrix, Simon},
+  journal = {Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences},
+ volume = {375},
+ number = {2106},
+ 	year = {2017},
+  note = {Theme issue on `Second quantum revolution: foundational questions'},
+  eprint = {arXiv:1705.08459 [quant-ph]},
+  url = {http://rsta.royalsocietypublishing.org/content/375/2106/201603853},
+	doi = {10.1098/rsta.2016.0385},
+}
+
+
+
+@inproceedings{AbramskyEtAl:QuantumMonad,
+  title = {The quantum monad on relational structures},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and de Silva, Nadish and Zapata, Octavio},
+  year =	{2017},
+  booktitle = {Proceedings of 42nd International Symposium on Mathematical Foundations of Computer Science (MFCS 2017)},
+  editor = {Larsen, Kim G. and Bodlaender, Hans L. and Raskin, Jean-Fran{\c{c}}ois},
+  series = {Leibniz International Proceedings in Informatics (LIPIcs)},  
+  volume =	{83},
+  pages =	{35:1--35:19},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum  f\"{u}r Informatik},
+  URL =		{http://drops.dagstuhl.de/opus/volltexte/2017/8129},
+  doi =		{10.4230/LIPIcs.MFCS.2017.35},
+  eprint = {arXiv:1705.07310 [cs.LO]},
+}
+
+  
+@inproceedings{AbrasmkyEtAl:MinimumResourcesSNL,
+  title = {Minimum quantum resources for strong non-locality},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and Car{\`u}, Giovanni and de Silva, Nadish and Kishida, Kohei and Mansfield, Shane},
+  booktitle =	{Proceedings of 12th Conference on the Theory of Quantum Computation, Communication and Cryptography (TQC 2017)},
+  pages =	{9:1--9:20},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  year =	{2018},
+  volume =	{73},
+  editor =	{Wilde, Mark M.},
+  publisher = {Schloss Dagstuhl--Leibniz-Zentrum f{\"{u}}r Informatik},
+  eprint = {arXiv:1705.09312 [quant-ph]},
+  url =		{http://drops.dagstuhl.de/opus/volltexte/2018/8582},
+  doi =		{10.4230/LIPIcs.TQC.2017.9},
+  note = {Accepted for communication at QPL 2017.}
+ }
+
+
+@article{AbramskyBarbosaMansfield:ContextualFraction,
+  title= {Contextual fraction as a measure of contextuality},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and Mansfield, Shane},
+  year = {2017},
+  journal = {Physical Review Letters},
+  volume = {119},
+  number = {050504},
+  note = {Earlier version (``Quantifying contextuality via linear programming'') accepted for communication at QPL 2016.},
+  eprint = {arXiv:1705.07918 [quant-ph]},
+  doi = {10.1103/PhysRevLett.119.050504},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.119.050504}
+  }
+
+@article{AbramskyEtAl:PossibilitiesDetermine,
+  title = {Possibilities determine the combinatorial structure of probability polytopes},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and Kishida, Kohei and Lal, Raymond and Mansfield, Shane},
+  year = {2016},
+  journal = {Journal of Mathematical Psychology},
+  volume = {74},
+  pages = {58--65},
+  note = {special issue on `Foundations of Probability Theory in Psychology and Beyond'},
+  eprint = {arXiv:1603.07735 [quant-ph]},
+  url = {http://www.sciencedirect.com/science/article/pii/S0022249616300013},
+  doi = {10.1016/j.jmp.2016.03.006}
+}
+
+@inproceedings{AbramskyEtAl:ContextualityCohomologyAndParadox,
+  title = {Contextuality, cohomology and paradox},
+  author = {Abramsky, Samson and Barbosa, Rui Soares and Kishida, Kohei and Lal, Raymond and Mansfield, Shane},
+  year = {2015},
+  booktitle = {Proceedings of 24th EACSL Annual Conference on Computer Science Logic (CSL 2015)},
+  editor = {Kreutzer, Stephan},
+  pages = {211--228},
+  series = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  volume = {41},
+  publisher = {Schloss Dagstuhl--Leibniz-Zentrum f{\"{u}}r Informatik},
+  eprint = {arXiv:1502.03097 [quant-ph]},
+  url = {http://drops.dagstuhl.de/opus/volltexte/2015/5416},
+  doi = {10.4230/LIPIcs.CSL.2015.211},
+}
+@dphilthesis{Barbosa2015:dphil,
+  title = {Contextuality in quantum mechanics and beyond},
+  author = {Barbosa, Rui Soares},
+  school       = {University of Oxford},
+  year         = {2015},
+}
+@inproceedings{monogamymacrosmall,
+  title = {On monogamy of non-locality and macroscopic averages: examples and preliminary results},
+  author = {Barbosa, Rui Soares},
+  year = {2014},
+  booktitle = {Proceedings of 11th Workshop on Quantum Physics and Logic (QPL 2014)},
+  editor = {Coecke, Bob and Hasuo, Ichiro and Panangaden, Prakash},
+  pages = {36--55},
+  series = {Electronic Proceedings in Theoretical Computer Science},
+  volume = {172},
+  eprint = {arXiv:1412.8541 [quant-ph]},
+  doi = {10.4204/EPTCS.172.4},
+  url = {http://arxiv.org/abs/1412.8541}
+}
+@misc{MansfieldBarbosa:QPL2013,
+  title = {Extendability in the sheaf-theoretic approach: Construction of {B}ell models from {K}ochen-{S}pecker models},
+  author = {Mansfield, Shane and Barbosa, Rui Soares},
+  year = {2013},
+  howpublished = "Informal pre-proceedings of 10th Wokshop on Quantum Physics and Logic (QPL 2013)",
+  eprint = {arXiv:1402.4827 [quant-ph]},
+  url = {http://arxiv.org/abs/1402.4827},
+}
+
+@inproceedings{AbramskyMansfieldBarbosa:Cohomology-QPL,
+  title = {The cohomology of non-locality and contextuality},
+  author = {Abramsky, Samson and Mansfield, Shane and Barbosa, Rui Soares},
+  year = {2012},
+  booktitle = {Proceedings of 8th International Workshop on Quantum Physics and Logic (QPL 2011)},
+  editor = {Jacobs, Bart and Selinger, Peter and Spitters, Bas},
+  series = {Electronic Proceedings in Theoretical Computer Science},
+  pages = {1--14},
+  volume = {95},
+  eprint = {arXiv:1111.3620 [quant-ph]},
+  url = {http://arXiv.org/abs/1111.3620},
+  doi = {10.4204/EPTCS.95.1},
+}
+@incollection{unsharpvalues,
+  title = {Unsharp values, domains and topoi},
+  author = {D{\"o}ring, Andreas and Barbosa, Rui Soares},
+  year = {2012},
+  booktitle = {Quantum Field Theory and Gravity},
+  editor = {Finster, Felix and M{\"u}ller, Olaf and Nardmann, Marc and Tolksdorf, J{\"u}rgen and Zeidler, Eberhard},
+  isbn = {978-3-0348-0042-6},
+  pages = {65--96},
+  publisher = {Springer Basel},
+  eprint = {arXiv:1107.1083 [quant-ph]},
+  url = {http://link.springer.com/chapter/10.1007%2F978-3-0348-0043-3_5},
+  doi = {10.1007/978-3-0348-0043-3_5}
+}
+@mastersthesis{Barbosa2010:msc,
+  title = {Interval domain(s) and physics},
+  author = {Barbosa, Rui Soares},
+  school       = {University of Oxford},
+  year         = {2010},
+}
+</textarea>
+            <p><div id="bibtex_display"></div></p>
+
+            
+            <div class="space_bottom"></div>
+
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="catarina">Website by <a href="http://catarinasoaresbarbosa.com">Catarina Soares Barbosa</a></div>
+	    <div class="catarina">Publications rendered with <a href="https://github.com/pcooksey/bibtex-js">BibTeX-js</a></div>
+	  </div>
+
+
+
+        </div><!--end content-->
+      </div><!--end main-->
+    </body>
+
+<script>
+// When the user scrolls down 50px from the top of the document, resize the names's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+     document.getElementById("Rui").style.width = "40px"; document.getElementById("Soares").style.width = "40px"; document.getElementById("Barbosa").style.width = "40px"; document.getElementById("nameout1").style.display = "none"; document.getElementById("nameout2").style.display = "none"; document.getElementById("nameout3").style.display = "none";document.getElementById("Barbosa").style.textAlign = "left";
+  } else {
+     document.getElementById("Rui").style.width = "33.3333333%"; document.getElementById("Soares").style.width = "33.3333333%"; document.getElementById("Barbosa").style.width = "33.3333333%"; document.getElementById("nameout1").style.display = "inline"; document.getElementById("nameout2").style.display = "inline"; document.getElementById("nameout3").style.display = "inline";document.getElementById("Barbosa").style.textAlign = "right";
+     
+  }
+}
+
+
+</script>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</html>
+
