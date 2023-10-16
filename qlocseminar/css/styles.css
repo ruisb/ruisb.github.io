@@ -105,6 +105,9 @@ color:#753bbd;
 .speaker-name {
 	font-weight: 700;}
 
+.speaker-name a{
+	font-weight: 700;}
+
 
 .abstract{display: none;
 border-bottom: 1.5px solid #666;
