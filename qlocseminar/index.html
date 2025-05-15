@@ -95,25 +95,6 @@ The meetings are usually hybrid (in person and via Zoom).
 -->
    
 
-
-    <div class="talk-details">
-	     <div class="talk-date">Mon 12th May 2025 at 14.00  &#64; Vision Room, INL</div>
-     	<div class="speaker">
-		<span class="speaker-name">Costantino Budroni</span>
-		<span class="speaker-affilliation">(U Pisa)</span>
-     	</div>
-     	<div class="talk-title">Quantum memory and quantum correlations in time</div>
-	<div class="links">
-  		<a class="link-first" class="link-abstract-closed" id="linkabs12052025" href="javascript:toggle_abstract('abs12052025','linkabs12052025');">Abstract</a>
-		<a class="link-last" target="_blank" href="https://videoconf-colibri.zoom.us/j/96213569851?pwd=XOq9tdu0BFFNY8xY4JJFbgF1bsW3EX.1">Zoom meeting link</a>
-	</div>
-     	<div class="abstract" id="abs12052025">
-		<p>
-We present recent progress on the investigation of temporal correlations, namely, sequences of outputs from repeated measurements on physical systems. We identify scenarios where quantum systems outperform classical ones and investigate the associated limits using numerical methods. We observe that the key resource for generating these correlations is the memory encoded within the internal states of the physical system. Our results contradicts the common belief that entanglement-breaking channels represent classical memory: a qudit passing through such a channel cannot be simulated by a classical system of the same size.
-		</p>
-     	</div> 
-     </div>
-
      
 
 
@@ -123,13 +104,27 @@ We present recent progress on the investigation of temporal correlations, namely
 		<span class="speaker-name">Shantanav Chakraborty</span>
 		<span class="speaker-affilliation">(IIIT Hyderabad)</span>
      	</div>
-     	<div class="talk-title">TBA</div>
+     	<div class="talk-title">Quantum singular value transformation without block encodings: Near-optimal complexity with minimal ancilla</div>
 	<div class="links">
   		<a class="link-first" class="link-abstract-closed" id="linkabs11062025" href="javascript:toggle_abstract('abs11062025','linkabs11062025');">Abstract</a>
 	<!--	<a class="link-last" target="_blank" href="">Zoom meeting link</a>-->
 	</div>
      	<div class="abstract" id="abs11062025">
-		<p>TBA</p>
+		<p>
+		Quantum Singular Value Transformation (QSVT) is a unified framework that describes most quantum algorithms discovered thus far. This method implements polynomial transformations to any matrix embedded in the top-left block of a unitary, known as a block encoding. Given such a block-encoding U as an input, QSVT leads to optimal complexities in terms of the number of queries to U. However, the reliance on block encoding is a serious bottleneck for this framework. For instance, consider any Hamiltonian H that is a sum of L local operators. Constructing a block encoding of H itself requires O(log L) ancilla qubits and several sophisticated multi-qubit controlled gates which detrimentally affects the applicability of QSVT.
+		</p>
+		<p>
+		In my talk, I will discuss our recent work where we develop new quantum algorithms for implementing QSVT without relying on block encodings. Surprisingly, our methods make use of only basic Hamiltonian simulation techniques such as Trotterization to achieve near-optimal complexities while needing only a single ancilla qubit.  Central to our method is a novel use of Richardson extrapolation, enabling systematic error cancellation in any interleaved sequences of arbitrary unitaries and Hamiltonian evolution operators, establishing a broadly applicable framework beyond QSVT. As applications, we develop new quantum algorithms for solving quantum linear systems and ground state property estimation, both achieving near optimal complexities without oracular access or sophisticated quantum subroutines, and consuming very few ancilla qubits. This represents a major simplification over existing algorithms for solving these problems. 
+		</p>
+		<p>
+		We also develop two randomized quantum algorithms for QSVT in a setting where there is only sampling access to the terms of the Hamitonian. We prove concrete lower bounds for the complexity of QSVT within this access model which extends to other randomized quantum linear algebra-based techniques. Overall, our results provide a new framework for quantum algorithms, reducing hardware overhead while maintaining near-optimal performance, with implications for both near-term and fault-tolerant quantum computing.
+		</p>
+		<p>
+		Joint work with Soumyabrata Hazra, Tongyang Li, Changpeng Shao, Xinzhao Wang, and Yuxin Zhang.
+		</p>
+		<p>
+		Reference: <a target="_blank" href="https://arxiv.org/abs/2504.02385">arXiv:2504.02385 [quant-ph]</a>
+		</p>
      	</div> 
      </div>
 
@@ -159,6 +154,25 @@ We present recent progress on the investigation of temporal correlations, namely
         	</div>   
      </div>
 -->
+
+    <div class="talk-details">
+	     <div class="talk-date">Mon 12th May 2025 at 14.00  &#64; Vision Room, INL</div>
+     	<div class="speaker">
+		<span class="speaker-name">Costantino Budroni</span>
+		<span class="speaker-affilliation">(U Pisa)</span>
+     	</div>
+     	<div class="talk-title">Quantum memory and quantum correlations in time</div>
+	<div class="links">
+  		<a class="link-first" class="link-abstract-closed" id="linkabs12052025" href="javascript:toggle_abstract('abs12052025','linkabs12052025');">Abstract</a>
+		<!--<a class="link-last" target="_blank" href="https://videoconf-colibri.zoom.us/j/96213569851?pwd=XOq9tdu0BFFNY8xY4JJFbgF1bsW3EX.1">Zoom meeting link</a>-->
+	</div>
+     	<div class="abstract" id="abs12052025">
+		<p>
+We present recent progress on the investigation of temporal correlations, namely, sequences of outputs from repeated measurements on physical systems. We identify scenarios where quantum systems outperform classical ones and investigate the associated limits using numerical methods. We observe that the key resource for generating these correlations is the memory encoded within the internal states of the physical system. Our results contradicts the common belief that entanglement-breaking channels represent classical memory: a qudit passing through such a channel cannot be simulated by a classical system of the same size.
+		</p>
+     	</div> 
+     </div>
+
 
 
     <div class="talk-details">
