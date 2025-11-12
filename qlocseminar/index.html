@@ -97,26 +97,7 @@ The meetings are usually hybrid (in person and via Zoom).
 
 
 
-        <div class="talk-details">
-	     <div class="talk-date">Mon 10th Novemberber 2025 at 14.00  &#64; Vision Room, INL</div>
-     	<div class="speaker">
-		<span class="speaker-name">Filipa C. R. Peres</span>
-		<span class="speaker-affilliation">(U Granada)</span>
-     	</div>
-     	<div class="talk-title">Symmetry-accelerated classical simulation of Clifford-dominated circuits</div>
-	<div class="links">
-  		<a class="link-first" class="link-abstract-closed" id="linkabs10112025" href="javascript:toggle_abstract('abs10112025','linkabs10112025');">Abstract</a>
-		<a class="link-last" target="_blank" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWExZTJhOTEtZTc0MS00YWNlLThlNjgtN2Q3NTBkNDQ2YTc2%40thread.v2/0?context=%7b%22Tid%22%3a%22355b5522-9913-44b7-9660-d3e39ad5f67a%22%2c%22Oid%22%3a%224629aef9-ce1f-4cb7-9383-cb0d809464f4%22%7d">Meeting link</a>
-	</div>
-     	<div class="abstract" id="abs10112025">
-		<p>
-		Classical simulation of quantum circuits plays a crucial role in validating quantum hardware and delineating the boundaries of quantum advantage. Among the most effective simulation techniques are those based on the stabilizer extent, which quantifies the overhead of representing non-Clifford operations as linear combinations of Clifford unitaries. However, finding optimal decompositions rapidly becomes intractable as it constitutes a superexponentially large optimization problem.
-In this work, we exploit symmetries in the computation of the stabilizer extent, proving that for real, diagonal, and real-diagonal unitaries, the optimization can be restricted to the corresponding subgroups of the Clifford group without loss of optimality. This "strong symmetry reduction'' drastically reduces computational cost, enabling optimal decompositions of unitaries on up to seven qubits using a standard laptop--far beyond previous two-qubit limits. Additionally, we employ a "weak symmetry reduction'' method that leverages additional invariances to shrink the search space further. Applying these results, we demonstrate exponential runtime improvements in classical simulations of quantum Fourier transform circuits and measurement-based quantum computations on the Union Jack lattice, as well as new insights into the non-stabilizer properties of multi-controlled-phase gates and unitaries generating hypergraph states. Our findings establish symmetry exploitation as a powerful route to scale classical simulation techniques and deepen the resource-theoretic understanding of quantum advantage.</p>
-		<p>
-		Talk based on <a target="_blank" href="https://arxiv.org/abs/2510.18977">arXiv:2510.18977 [quant-ph]</a>
-		</p>
-     	</div> 
-     </div> 
+    
 
 
        <div class="talk-details">
@@ -125,14 +106,20 @@ In this work, we exploit symmetries in the computation of the stabilizer extent,
 		<span class="speaker-name">Andr&eacute; Mendes</span>
 		<span class="speaker-affilliation">(U Minho)</span>
      	</div>
-     	<div class="talk-title">TBA</div>
+     	<div class="talk-title">Mapping quantum circuits with graph neural networks</div>
 	<div class="links">
   		<a class="link-first" class="link-abstract-closed" id="linkabs19112025" href="javascript:toggle_abstract('abs19112025','linkabs19112025');">Abstract</a>
 		<a class="link-last" target="_blank" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGQyZTI4MGMtZTQzZC00NDliLWI2MjctNTVhNjdlYzMxYzdm%40thread.v2/0?context=%7b%22Tid%22%3a%22355b5522-9913-44b7-9660-d3e39ad5f67a%22%2c%22Oid%22%3a%224629aef9-ce1f-4cb7-9383-cb0d809464f4%22%7d">Meeting link</a>
 	</div>
      	<div class="abstract" id="abs19112025">
 		<p>
-		TBA
+		The Quantum Circuit Layout (QCL) problem remains a critical bottleneck in realizing the potential of quantum computing. Efficiently mapping a circuit's logical qubits to a device's physical qubits is essential for performance, especially given the limited, nearest-neighbor connectivity of today's quantum hardware.
+		</p>
+		<p>
+		This talk presents a novel approach to QCL by leveraging machine learning, specifically Graph Neural Networks (GNNs). The approach first establishes graph representations for both the quantum circuit, via an interaction graph, and the quantum hardware, via a coupling map. This framework allows for a formal demonstration of the QCL problem's equivalence to the well-studied Subgraph Isomorphism (SGI) problem, which is known to be NP-complete.
+		</p>
+		<p>
+		By framing QCL as an SGI problem, a powerful GNN architecture designed for this task can be applied: the Adaptive Edge-Deleting Network (AEDNet). The AEDNet's novel "adaptive edge-deleting" mechanism is uniquely suited to this challenge. It learns to identify and effectively "prune" superfluous connections in the hardware's coupling map, enabling it to find an optimal subgraph mapping for the circuit's interaction graph.
 		</p>
      	</div> 
      </div> 
@@ -189,6 +176,26 @@ In this work, we exploit symmetries in the computation of the stabilizer extent,
      </div>
 -->
 
+    <div class="talk-details">
+	     <div class="talk-date">Mon 10th Novemberber 2025 at 14.00  &#64; Vision Room, INL</div>
+     	<div class="speaker">
+		<span class="speaker-name">Filipa C. R. Peres</span>
+		<span class="speaker-affilliation">(U Granada)</span>
+     	</div>
+     	<div class="talk-title">Symmetry-accelerated classical simulation of Clifford-dominated circuits</div>
+	<div class="links">
+  		<a class="link-first" class="link-abstract-closed" id="linkabs10112025" href="javascript:toggle_abstract('abs10112025','linkabs10112025');">Abstract</a>
+		<!--	<a class="link-last" target="_blank" href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWExZTJhOTEtZTc0MS00YWNlLThlNjgtN2Q3NTBkNDQ2YTc2%40thread.v2/0?context=%7b%22Tid%22%3a%22355b5522-9913-44b7-9660-d3e39ad5f67a%22%2c%22Oid%22%3a%224629aef9-ce1f-4cb7-9383-cb0d809464f4%22%7d">Meeting link</a>-->
+	</div>
+     	<div class="abstract" id="abs10112025">
+		<p>
+		Classical simulation of quantum circuits plays a crucial role in validating quantum hardware and delineating the boundaries of quantum advantage. Among the most effective simulation techniques are those based on the stabilizer extent, which quantifies the overhead of representing non-Clifford operations as linear combinations of Clifford unitaries. However, finding optimal decompositions rapidly becomes intractable as it constitutes a superexponentially large optimization problem.
+In this work, we exploit symmetries in the computation of the stabilizer extent, proving that for real, diagonal, and real-diagonal unitaries, the optimization can be restricted to the corresponding subgroups of the Clifford group without loss of optimality. This "strong symmetry reduction'' drastically reduces computational cost, enabling optimal decompositions of unitaries on up to seven qubits using a standard laptop--far beyond previous two-qubit limits. Additionally, we employ a "weak symmetry reduction'' method that leverages additional invariances to shrink the search space further. Applying these results, we demonstrate exponential runtime improvements in classical simulations of quantum Fourier transform circuits and measurement-based quantum computations on the Union Jack lattice, as well as new insights into the non-stabilizer properties of multi-controlled-phase gates and unitaries generating hypergraph states. Our findings establish symmetry exploitation as a powerful route to scale classical simulation techniques and deepen the resource-theoretic understanding of quantum advantage.</p>
+		<p>
+		Talk based on <a target="_blank" href="https://arxiv.org/abs/2510.18977">arXiv:2510.18977 [quant-ph]</a>
+		</p>
+     	</div> 
+     </div> 
 
        <div class="talk-details">
 	     <div class="talk-date">Wed 8th October 2025 at 16.00  &#64; online only</div>
