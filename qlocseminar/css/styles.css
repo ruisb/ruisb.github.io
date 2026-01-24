@@ -63,6 +63,15 @@ font-weight: 900;
 color:#753bbd;
 
 }
+.year-title{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	color:#753bbd;
+
+}
+
+
 
 .first{
 	display: flex;
@@ -75,6 +84,11 @@ color:#753bbd;
 	padding-top:60px;
 
 }
+.year-section{
+	padding-top:30px;
+
+}
+
 
 .section p{
 	max-width: 60%;
@@ -110,7 +124,7 @@ color:#753bbd;
 
 
 .abstract{display: none;
-border-bottom: 1.5px solid #666;
+border-bottom: 1.5px solid #666666;
 max-width: 60%;
 margin-bottom: 40px;
 padding-top: 10px;
@@ -128,7 +142,7 @@ margin-bottom: 10px;}
 
 
 .contact{
-	color: #666;
+	color: #666666;
 	margin-left:20px;
 	}
 
@@ -151,7 +165,7 @@ text-align: center;
 
 a:hover{ border-bottom: solid 1.5px #753bbd; }
 
-.link-abstract-open{ border-bottom: solid 1.5px #666; }
+.link-abstract-open{ border-bottom: solid 1.5px #666666; }
 .link-abstract-open:hover{ border-bottom: solid 1.5px #753bbd; }
 
 @media (max-width: 640px){
@@ -192,7 +206,7 @@ max-width: 1200px;
 
 
 
-.links a{ color: #666; }
+.links a{ color: #666666; }
 
 
 .link-middle, .link-first {
@@ -231,6 +245,10 @@ max-width: 100%;
 }
 .section-title{
 font-size: 20px;
+}
+.year-title{
+	font-size: 16px;
+
 }
 
 .speaker{}
@@ -302,10 +320,15 @@ font-size: 20px;
 color:#753bbd;
 }
 .section{padding-top: 30px;}
+.year-section{padding-top: 20px;}
 
 .section-title{
 font-size: 15px;
 }
+.year-title{
+font-size: 14px;
+}
+
 
 body{
 	font-size: 13px;
