@@ -160,7 +160,7 @@ p{
        
 }
 
-img{
+img,iframe{
 	margin: 0px;
 }
 a{color: #000;
@@ -284,6 +284,12 @@ position: ~webkit-sticky;}
 .button img:hover{
 	opacity: 53.333%;
 }
+
+.halfimg img{    /*image to place sideby side unless too tight a screen*/
+	width: 50%;
+}
+
+
 
 /*Mobile Menu*/
 .mobile{display: none;}
@@ -477,7 +483,7 @@ margin-top: 20px;}
 
 
 @media (max-width: 1100px){
-	img{max-width: 90%;
+	img,iframe{max-width: 100%;
 		/*margin-left: 20px;*/}
 
 		#name{font-size: 60px;}
@@ -527,6 +533,9 @@ margin-top: 20px;}
 .button{margin-left: 0px;}
 
 
+.halfimg img{    /*image to place sideby side unless too tight a screen*/
+	width: 100%;
+}
 
 }
 
@@ -645,7 +654,7 @@ body{
 	font-size: 14px;
 
 }
-img{width: 100%;}
+img, iframe{width: 100%;}
 
 
 
